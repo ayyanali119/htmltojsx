@@ -1,8 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
+        
+          <div>
             <>
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -27,7 +29,7 @@ const Navbar = () => {
       </a>
       <div className="nav-links" id="navLinks">
         {/* Reposnive bar open and close */}
-        
+        <i className="fa fa-times" onclick="hideMenu()" />
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -46,7 +48,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      
+      <i className="fa fa-bars" onclick="showMenu()" />
       {/* Reposnive bar open and close */}
     </nav>
     <div className="text_box">
@@ -64,7 +66,9 @@ const Navbar = () => {
   </section>
 </>
 
-        </div>
+          </div>
+
+        
     )
 }
 

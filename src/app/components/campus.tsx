@@ -24,13 +24,17 @@ const Campus = () => {
         </div>
       </div>
       <div className="campus-col">
-        <img src="img/Campus2.png" alt="pic2" />
+        <Image
+         src={require("@/app/img/Campus2.png")}
+         alt="pic2" />
         <div className="layer">
           <h3>HYDERABAD</h3>
         </div>
       </div>
       <div className="campus-col">
-        <img src="img/Campus3.png" alt="pic3" />
+        <Image 
+        src={require("@/app/img/Campus3.png")}
+         alt="pic3" />
         <div className="layer">
           <h3>MUMBAI</h3>
         </div>
